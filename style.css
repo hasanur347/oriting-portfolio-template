@@ -109,7 +109,7 @@ nav{
 
 @media (max-width:767px){
     .left-header{
-        padding-top: 50px; 
+        padding-top: 0px; 
         text-align: center;
     }
     .left-header h5{
@@ -126,6 +126,12 @@ nav{
     }
     .right-header .profile-img{
         margin-top: 20px;
+    }
+}
+@media (max-width:450px){
+    .left-header h1{
+        font-size: 45px;
+        
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1232px){
@@ -151,6 +157,7 @@ nav{
     color: #000;
     margin-bottom: 30px;
     letter-spacing: .6px;
+    max-width: 450px;
 }
 .about-text h4{
     color: hsl(214, 15%, 59%);
@@ -160,6 +167,7 @@ nav{
     font-weight: 400;
     letter-spacing: 0.7px;
     font-family: var(--ff-stylish);
+    max-width: 440px;
 }
 
 .about-text p{
@@ -176,6 +184,15 @@ nav{
     }
     .about-text h1{
         font-size:40px ;
-        
+        width: 100%;
+    }
+    .about-text p{
+        width: 100%;
+    }  
+}
+@media (max-width:345px){
+    .about-text h1{
+        font-size:30px ;
     }
 }
+
