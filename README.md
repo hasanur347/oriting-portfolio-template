@@ -1,6 +1,6 @@
 # Oriting Portfolio Template
 
-![Home Section](img src="C:\Users\Lenovo\OneDrive\Pictures\Screenshots\Screenshot 2024-08-21 203703.png")
+![Home Section](screenshots/Screenshot-2024-08-21-203703.png)
 
 ## Overview
 
