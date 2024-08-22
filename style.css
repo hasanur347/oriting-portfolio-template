@@ -343,3 +343,46 @@ nav{
 .resume-content:hover{
     box-shadow: 0 0 46px 0 rgba(0, 0, 0, 0.12);
 }
+.skill-image-1{
+    background-color: hsl(14, 100%, 91%);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.skill-image-2{
+    background-color: hsl(320, 87%, 94%);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.skill-image-3{
+    background-color: hsl(47, 94%, 93%);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+}
+.skill-image-4{
+    background-color: hsl(0, 72%, 93%);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+}
+.skill-image-5{
+    background-color: hsl(205, 100%, 90%);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
