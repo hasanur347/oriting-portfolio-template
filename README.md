@@ -1,6 +1,5 @@
 # Oriting Portfolio Template
 
-![Home Section](screenshots/Screenshot-2024-08-21-203703.png)
 
 ## Overview
 
