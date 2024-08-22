@@ -24,6 +24,7 @@ html{
 /* =======================================Navbar section=========================== */
 body{
     background: hsl(213, 44%, 95%);
+    line-height: 1.5;
 }
 nav{
     background: hsl(213, 44%, 95%);
@@ -256,7 +257,7 @@ nav{
 
 #portfolio h1{
     font-family: var(--ff-stylish);
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 700;
 }
 #portfolio h5{
@@ -276,17 +277,69 @@ nav{
     box-shadow: 0 0 46px 0 rgba(0, 0, 0, 0.12);
     flex: 1 1 30%;
     margin: 0 1%; /* Adjust margin as needed */
+    overflow: hidden;
+    position: relative;
 }
-
 
 #portfolio img{
     width: 400px;
 }
-
-
 @media (max-width: 678px) {
     .my-card {
         flex: 1 1 100%;
         max-width: 100%;
     }
 } 
+/* =======================================resume section=========================== */
+#resume{
+    background-color: #fff;
+    padding-top:60px ;
+}
+#resume h4{
+    color: #0049ff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#resume h1{
+    font-family: var(--ff-stylish);
+    font-size: 70px;
+    font-weight: 700;
+}
+.resume-content{
+    padding: 20px 20px 0px 20px;
+    cursor: pointer;
+}
+.resume-content h5{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.resume-content h5 span{
+    color: #0049ff;
+}
+.resume-content h3{
+    color: #767575;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.resume-content h3 span{
+    font-size: 14px;
+    color: black;
+}
+.resume-content p{
+    font-size: 17px;
+    color: #767575;
+    padding-bottom: 15px;
+}
+.resume-content hr{
+    height: 3px;
+}
+.resume-content:hover hr{
+    color:blue;
+}
+.resume-content:hover{
+    box-shadow: 0 0 46px 0 rgba(0, 0, 0, 0.12);
+}
