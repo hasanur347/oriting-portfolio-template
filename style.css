@@ -23,7 +23,7 @@ html{
 }
 /* =======================================Navbar section=========================== */
 body{
-    background: hsl(213, 44%, 95%);
+    background-color: hsl(213, 44%, 95%);
     line-height: 1.5;
 }
 nav{
@@ -260,6 +260,11 @@ nav{
     font-size: 70px;
     font-weight: 700;
 }
+@media only screen and (max-width:550px){
+    #portfolio h1{
+        font-size: 45px;
+    }
+}
 #portfolio h5{
     color: #0049ff;
     font-size: 18px;
@@ -306,6 +311,11 @@ nav{
     font-family: var(--ff-stylish);
     font-size: 70px;
     font-weight: 700;
+}
+@media only screen and (max-width:550px){
+    #resume h1{
+        font-size: 45px;
+    }
 }
 .resume-content{
     padding: 20px 20px 0px 20px;
@@ -385,4 +395,203 @@ nav{
     display: grid;
     place-items: center;
 }
+.round-text i{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.round-text h5{
+    color: hsl(0, 0%, 16%);
+    font-size: 36px;
+    font-style:italic;
+    font-family: var(--ff-stylish);
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.round-text h3{
+    font-family: var(--ff-stylish);
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 50px;
+}
+.round-text h3::before{
+    position: absolute;
+    content: "";
+    background-color: #0049ff;
+    height: 3px;
+    width:30px;
+    top: 10px;
+    left: -40px;
+}
+/* =======================================blog section=========================== */
+#blog{
+    background-color: #fff;
+}
+#blog h4{
+    color: #0049ff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#blog h1{
+    font-family: var(--ff-stylish);
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width:550px){
+    #blog h1{
+        font-size: 45px;
+    }
+}
+#blog a{
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    position: relative;
+    transition: all .3s linear;
+}
+#blog a::before{
+    position: absolute;
+    content: "";
+    background-color: #0049ff;
+    width:0px;
+    height: 2px;
+    bottom: 0;
+}
+#blog a:hover::before{
+    width: 90px;
+}
 
+#blog h2{
+    font-family: var(--ff-stylish);
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+}
+#blog h2:hover{
+    color: #0049ff;
+}
+.overflow-img{
+    overflow: hidden;
+}
+#blog img{
+    transition: all .3s linear;
+}
+#blog img:hover{
+    transform: scale(1.1);
+}
+/* =======================================contact section=========================== */
+#contact{
+    background-color: #fff;
+}
+#contact h4{
+    color: #0049ff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 3rem;
+}
+#contact h1{
+    font-family: var(--ff-stylish);
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+@media only screen and (min-width: 576px) and (max-width: 990px){
+    .cont-details h1{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width:550px){
+    #contact h1{
+        font-size: 45px;
+    }
+}
+.cont-details h1{
+    font-size: 64px;
+    color: #323131;
+}
+.cont-details h5{
+    color: #757171;
+    font-size: 18px;
+    margin-bottom: 3.5rem;
+}
+.cont-details h6,
+.cont-details h2{
+    color: #464646;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cont-details i{
+    color: #0049ff;
+    font-size: 25px;
+}
+.form-button a{
+    text-decoration: none;
+    background-color: #0049ff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: .5rem;
+}
+.form-button{
+    margin-top: 60px;
+}
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%; /* Adjust the width as needed */
+    height: 80%;
+    transform: translateX(-50%); /* Centers the iframe horizontally */
+    border: 0;
+    border-radius: 15px;
+}
+/* =======================================footer section=========================== */
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.footer img{
+    margin-bottom: 25px;
+}
+.footer-column {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.footer-column:last-child {
+    border-right: none;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+.footer ul li a{
+    color: #000;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
