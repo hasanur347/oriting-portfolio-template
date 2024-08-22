@@ -196,3 +196,47 @@ nav{
     }
 }
 
+
+/* =======================================service section=========================== */
+#service{
+    background-color: #fff;
+}
+#service img{
+    width: 110px;
+    height: 110px;
+    margin-top: 50px;
+}
+#service h1{
+    font-size: 28px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#service h1:hover{
+    color: #0049ff;
+}
+#service p{
+    color:#767575;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 15px;
+}
+.card{
+    border: none;
+    transition: all .3s linear;
+}
+.card:hover{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
+    transform-style: preserve-3d;
+    box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.126);
+}
+#service a{
+    text-decoration: none;
+    padding-bottom:30px;
+    color: #767575;
+    font-size: 18px;
+}
+#service a:hover{
+    color: #0049ff;
+}
