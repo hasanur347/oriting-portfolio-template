@@ -441,7 +441,7 @@ nav{
     font-weight: 700;
     margin-bottom: 3rem;
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:767px){
     #blog h1{
         font-size: 45px;
     }
@@ -507,8 +507,11 @@ nav{
         font-size: 45px;
     }
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:767px){
     #contact h1{
+        font-size: 45px;
+    }
+    .cont-details h1{
         font-size: 45px;
     }
 }
